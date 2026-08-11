@@ -56,7 +56,7 @@ export function Header() {
                 <Link
                   href={item.href}
                   aria-current={pathname === item.href ? "page" : undefined}
-                  className={`group relative inline-flex min-h-11 items-center px-1 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase transition-colors duration-150 xl:px-1.5 xl:text-sm ${
+                  className={`group relative inline-flex min-h-11 items-center px-1 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase transition-colors duration-150 xl:px-1.5 ${
                     pathname === item.href
                       ? "text-brand-700"
                       : "text-ink-700 hover:text-brand-700"
@@ -83,8 +83,8 @@ export function Header() {
               href={action.href}
               className={
                 action.variant === "solid"
-                  ? "inline-flex min-h-11 items-center justify-center rounded-chip border border-brand-700 bg-brand-700 px-4 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase text-white transition-[background-color,transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-brand-800 hover:shadow-md active:translate-y-0 active:bg-brand-900 xl:px-5 xl:text-sm"
-                  : "inline-flex min-h-11 items-center justify-center rounded-chip border border-brand-700 bg-white px-4 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase text-brand-700 transition-[background-color,color,transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-brand-700 hover:text-white hover:shadow-md active:translate-y-0 active:bg-brand-800 xl:px-5 xl:text-sm"
+                  ? "inline-flex min-h-11 items-center justify-center rounded-chip border border-brand-700 bg-brand-700 px-4 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase text-white transition-[background-color,transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-brand-800 hover:shadow-md active:translate-y-0 active:bg-brand-900 xl:px-5"
+                  : "inline-flex min-h-11 items-center justify-center rounded-chip border border-brand-700 bg-white px-4 text-[13px] leading-none font-normal tracking-[0.02em] whitespace-nowrap uppercase text-brand-700 transition-[background-color,color,transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:bg-brand-700 hover:text-white hover:shadow-md active:translate-y-0 active:bg-brand-800 xl:px-5"
               }
             >
               {action.label}

@@ -440,7 +440,7 @@ export function InquiryFormWizard() {
           className="mt-5 max-w-[13ch] font-display text-[clamp(1.875rem,4vw,3.125rem)] leading-[1.04] font-normal tracking-[-0.02em] text-ink-900"
         />
         <Reveal>
-          <p className="mt-5 max-w-[42ch] text-sm leading-relaxed font-normal text-ink-600 sm:text-[15px]">
+          <p className="mt-5 max-w-[42ch] text-[17px] leading-relaxed font-normal text-ink-600">
             {INQUIRY_FORM.introduction}
           </p>
         </Reveal>

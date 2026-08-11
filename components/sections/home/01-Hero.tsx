@@ -40,7 +40,7 @@ export default async function Hero() {
             className="mt-6 max-w-[21ch] font-display text-[clamp(2rem,4.6vw,3.375rem)] leading-[1.04] font-normal tracking-[-0.02em] text-ink-900"
           />
 
-          <div className="mt-7 max-w-[65ch] space-y-4 text-[clamp(0.9375rem,1.4vw,1.0625rem)] leading-[1.65] font-normal text-ink-600">
+          <div className="mt-7 max-w-[65ch] space-y-4 text-[17px] leading-[1.65] font-normal text-ink-600">
             {HERO.sub.map((paragraph) => (
               <Reveal key={paragraph}>
                 <p>{paragraph}</p>

@@ -57,7 +57,7 @@ export function MobileNav({ pathname }: { pathname: string }) {
                       href={item.href}
                       aria-current={pathname === item.href ? "page" : undefined}
                       onClick={() => setOpen(false)}
-                      className={`flex min-h-12 items-center justify-between border-b border-ink-100 px-2 font-normal tracking-[0.02em] uppercase transition-colors duration-150 ${
+                      className={`flex min-h-12 items-center justify-between border-b border-ink-100 px-2 text-[13px] font-normal tracking-[0.02em] uppercase transition-colors duration-150 ${
                         pathname === item.href
                           ? "text-brand-700"
                           : "text-ink-800 hover:bg-brand-50 hover:text-brand-700"

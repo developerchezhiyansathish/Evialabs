@@ -46,7 +46,7 @@ export default async function WhyChoose() {
           />
 
           <Reveal className="lg:self-end">
-            <p className="max-w-[52ch] text-[clamp(0.9375rem,1.5vw,1.125rem)] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75] lg:ml-auto lg:text-right">
+            <p className="max-w-[52ch] text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75] lg:ml-auto lg:text-right">
               {WHY_CHOOSE.introduction}
             </p>
           </Reveal>
@@ -78,7 +78,7 @@ export default async function WhyChoose() {
                         {item.paragraphs.map((paragraph) => (
                           <p
                             key={paragraph}
-                            className="text-sm leading-[1.7] font-normal text-ink-600 sm:text-base sm:leading-[1.75]"
+                            className="text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]"
                           >
                             {paragraph}
                           </p>

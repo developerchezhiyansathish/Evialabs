@@ -40,7 +40,7 @@ export default async function Capabilities() {
           />
 
           <Reveal className="lg:self-end">
-            <p className="max-w-[56ch] text-[clamp(0.9375rem,1.5vw,1.125rem)] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75] lg:ml-auto lg:text-right">
+            <p className="max-w-[56ch] text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75] lg:ml-auto lg:text-right">
               {CAPABILITIES_PROCESS.introduction}
             </p>
           </Reveal>

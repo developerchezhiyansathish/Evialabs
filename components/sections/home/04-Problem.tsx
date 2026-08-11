@@ -1,7 +1,10 @@
+import { LuFactory, LuShieldCheck } from "react-icons/lu";
 import { Reveal } from "@/components/motion/Reveal";
 import SplitText from "@/components/motion/SplitText";
 import { PROBLEM } from "@/content/home";
 import { ProblemMarker } from "./ProblemMarker";
+
+const PROBLEM_ICONS = [LuShieldCheck, LuFactory] as const;
 
 export default async function Problem() {
   return (
@@ -57,20 +60,22 @@ export default async function Problem() {
           className="mx-auto mt-9 max-w-[42ch] font-display text-[clamp(1.25rem,2.6vw,1.75rem)] leading-snug font-normal text-brand-700 sm:mt-11"
         />
 
-        <div className="mx-auto mt-9 grid max-w-7xl border-y border-ink-200 md:grid-cols-3 sm:mt-11">
+        <div className="mx-auto mt-9 grid max-w-7xl gap-5 md:grid-cols-2 sm:mt-11 md:gap-6">
           {PROBLEM.paragraphs.map((paragraph, index) => (
             <Reveal key={paragraph}>
-              <div
-                className={`flex h-full items-start px-2 py-7 sm:px-6 sm:py-8 lg:px-8 ${
-                  index > 0
-                    ? "border-t border-ink-200 md:border-l md:border-t-0"
-                    : ""
-                }`}
-              >
-                <p className="text-sm leading-[1.7] font-normal text-ink-600 sm:text-base sm:leading-[1.75]">
+              <article className="flex h-full min-h-60 flex-col rounded-card border border-ink-200 bg-ink-50 p-6 shadow-[0_12px_35px_rgba(11,11,11,0.04)] transition-[border-color,box-shadow,transform] duration-300 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_18px_42px_rgba(47,75,28,0.10)] sm:p-8 lg:p-10">
+                {(() => {
+                  const Icon = PROBLEM_ICONS[index];
+                  return (
+                    <div className="grid size-12 place-items-center rounded-ui border border-brand-200 bg-white text-brand-700 sm:size-14">
+                      <Icon size={27} strokeWidth={1.6} aria-hidden="true" />
+                    </div>
+                  );
+                })()}
+                <p className="mt-auto pt-10 text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
                   {paragraph}
                 </p>
-              </div>
+              </article>
             </Reveal>
           ))}
         </div>

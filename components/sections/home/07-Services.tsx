@@ -57,7 +57,7 @@ export default async function Services() {
 
           <Reveal className="lg:self-end">
             <div className="lg:ml-auto lg:max-w-[60ch] lg:text-right">
-              <p className="text-[clamp(0.9375rem,1.5vw,1.125rem)] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
+              <p className="text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
                 {SERVICES_CONTENT.introduction}
               </p>
             </div>
@@ -100,7 +100,7 @@ export default async function Services() {
                         {service.paragraphs.map((paragraph) => (
                           <p
                             key={paragraph}
-                            className="service-card-copy text-[14px] leading-[1.7] text-ink-600 transition-colors duration-500 sm:text-[15px]"
+                            className="service-card-copy text-[17px] leading-[1.7] text-ink-600 transition-colors duration-500"
                           >
                             {paragraph}
                           </p>

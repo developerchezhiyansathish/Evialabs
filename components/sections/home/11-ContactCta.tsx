@@ -43,7 +43,7 @@ export default async function ContactCta() {
             />
 
             <Reveal className="mt-6">
-              <p className="max-w-[66ch] text-[clamp(0.9375rem,1.35vw,1.125rem)] leading-[1.7] font-normal text-white/80 sm:leading-[1.75] max-lg:mx-auto">
+              <p className="max-w-[66ch] text-[17px] leading-[1.7] font-normal text-white/80 sm:leading-[1.75] max-lg:mx-auto">
                 {CONTACT_CTA.body}
               </p>
             </Reveal>

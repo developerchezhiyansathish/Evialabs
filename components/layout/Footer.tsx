@@ -26,7 +26,7 @@ export function Footer() {
               />
             </Link>
 
-            <p className="mt-5 text-sm leading-[1.7] text-ink-400">
+            <p className="mt-5 text-[17px] leading-[1.7] text-ink-400">
               {FOOTER_CONTENT.description}
             </p>
 
@@ -69,7 +69,7 @@ export function Footer() {
             <h2 className="text-[11px] font-normal tracking-[0.14em] text-white uppercase">
               {FOOTER_CONTENT.contact.title}
             </h2>
-            <address className="mt-5 max-w-[245px] text-sm leading-[1.65] not-italic text-ink-400">
+            <address className="mt-5 max-w-[245px] text-[17px] leading-[1.65] not-italic text-ink-400">
               <p>{FOOTER_CONTENT.contact.address}</p>
               <div className="mt-5 flex flex-col items-start">
                 <a

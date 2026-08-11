@@ -41,7 +41,7 @@ export default async function Clients() {
         />
 
         <Reveal className="mx-auto mt-7 max-w-[74ch]">
-          <p className="text-center text-[clamp(0.9375rem,1.4vw,1.125rem)] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
+          <p className="text-center text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
             {CLIENTS_PARTNERS.body}
           </p>
         </Reveal>

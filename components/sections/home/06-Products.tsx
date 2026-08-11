@@ -43,7 +43,7 @@ export default async function Products() {
 
           <Reveal>
             <div className="lg:ml-auto lg:max-w-[52ch] lg:text-right">
-              <p className="text-[clamp(0.9375rem,1.5vw,1.125rem)] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
+              <p className="text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
                 {PRODUCTS.introduction}
               </p>
               <Link

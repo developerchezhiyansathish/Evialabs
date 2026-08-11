@@ -10,17 +10,15 @@ export const NAVIGATION = [
   { label: "Products", href: "/products" },
   { label: "Services", href: "/services" },
   { label: "Capabilities & Process", href: "/capabilities" },
-  { label: "Blog", href: "/blog" },
   { label: "Contact Us", href: "/contact" },
 ] as const;
 
 export const HERO = {
   eyebrow: "Nellore, India / Contract Manufacturing",
-  h1: "Created by Nutraceutical Manufacturers Who Won't Compromise On Quality.",
-  highlight: "Won't Compromise On Quality.",
+  h1: "Trusted Nutraceutical Manufacturers for Global Brands",
+  highlight: "Global Brands",
   sub: [
-    "Many nutraceutical manufacturers in India overlook essential aspects like ingredient quality, product testing, and documentation. EVIA Labs was established to provide a more dependable solution.",
-    "Located in Nellore, India, EVIA Labs specializes in contract manufacturing of nutraceuticals, offering tablets, capsules, and powders for B2B pharmaceutical and nutraceutical marketing companies. Our manufacturing practices reflect a commitment to quality, compliance, and precision, rooted in over twenty years of experience in the pharmaceutical industry by our founding team.",
+    "EVIA Labs assists wellness and pharmaceutical companies in launching regulated, documented, and formulation-ready dietary supplements, from tablets and capsules to powders.",
   ],
   actions: [
     {
@@ -58,40 +56,36 @@ export const HOME_SECTIONS = {
 
 export const PROBLEM = {
   h2: "The Problem We Solve",
-  headline:
-    "A Market Built on Quick Fixes. A Manufacturer Established On Principles.",
-  h3: "It's Not Just What You Manufacture It's How You Manufacture It",
+  headline: "Bridging the Gap Between Manufacturing Claims and Production Reality",
+  h3: "It's Not Just What You Manufacture; It's How You Manufacture It",
   paragraphs: [
-    "As the nutraceutical industry evolves, there is a need for manufacturers that can provide quality, innovations, and effective formulations. Due to the growing need for safety, transparency, and efficiency from the consumer’s point of view, selection among various methods of production becomes extremely crucial to the future success of the brand.",
-    "With the use of advanced air handling technology, strict manufacturing, and stringent quality controls, EVIA Labs offers nutraceutical products that meet internationally recognized quality standards of manufacture.",
-    "We are reputable nutraceutical manufacturers working with both local and national pharmaceutical marketing firms through reliable manufacturing capacity and the expertise needed for bringing quality health products to the market.",
+    "Nutraceutical manufacturers are evaluated on their consistency, not solely on their formulas. It's the reliability from batch to batch that safeguards a brand's reputation with both regulators and consumers.",
+    "At EVIA Labs, we comply with international standards by maintaining state-of-the-art air-handling systems and quality control measures. We follow these standards at every step, for every batch we make.",
   ],
 } as const;
 
 export const WHY_CHOOSE = {
   h2: "Why Choose EVIA Labs?",
-  headline: "Why Evia Labs Is the Perfect Manufacturing Partner for Your Brand",
+  headline: "A Manufacturing Partner That Strengthens Your Brand",
   introduction:
-    "We are different from most supplement companies. We are a contract manufacturer of pharmaceutical grades, and it is our responsibility to meet the high standards required by the leading marketing companies and export buyers.",
+    "Specialized knowledge of pharmaceutical-grade standards and hands-on production processes enable EVIA Labs to convert innovative product concepts into commercially viable nutraceuticals. Both of these aspects are aligned with your brand’s vision.",
   items: [
     {
       h3: "Pharmaceutical-Grade Standards, Not Just GMP Compliance",
       paragraphs: [
-        "We do more than just check the box for compliance as nutraceutical manufacturers-we go beyond. Our building is pharmaceutical production-like, with controlled environments, proven processes, HEPA-grade air handling units, and clean working conditions. Each recipe must meet the standards set by the Indian, US, British, and Japanese pharmaceuticals. Because if your name is on the label, it means that the quality beneath is real.",
+        "Every formulation is tested in accordance with IP, USP, BP, and JP standards to ensure that a brand's label meets the highest standards possible worldwide.",
       ],
     },
     {
-      h3: "A Pure B2B Manufacturing Partner No Retail, No Conflict",
+      h3: "Every Brand Is Different, So Is Our Approach",
       paragraphs: [
-        "EVIA Labs is a committed third-party and business-to-business manufacturer. We do not sell to customers directly, have our own store name, or go up against our clients. We focus on who you serve, how much you earn, and the overall success of your business.",
-        "We will handle production, so you can concentrate on expanding your business and market share.",
+        "Each brand has various characteristics, demographics, pricing, and order targets. We provide specialist production with privacy, transparency, and reliable scheduling.",
       ],
     },
     {
-      h3: "Custom Formulations, Tailored for You. Each Brand Has Different Needs.",
+      h3: "Custom Formulations, Tailored for You",
       paragraphs: [
-        "We as nutraceutical manufacturers produce nutraceuticals in tablets, capsules, or granules in containers and sachets as per your specifications and standards. We suggest appropriate formulations, ingredient ratios, and dosage forms according to your wishes. Correctly specified, properly recorded, and reliably repeatable batch-to-batch.",
-        "Manufacturing Export Ready from Day One EVIA Labs is built to comply with the most stringent international quality standards. This means your products have a manufacturing story that you can confidently share with international distributors, export buyers, and regulatory bodies.",
+        "We make tablets, capsules, or granules crafted to each brand's unique specifications and meticulously document them for consistent repeat batches, guaranteeing a product that is export-ready from the start.",
       ],
     },
   ],
@@ -99,15 +93,13 @@ export const WHY_CHOOSE = {
 
 export const PRODUCTS = {
   h2: "Our Products",
-  headline:
-    "Produced to International Pharmacuetical Standards: Your Product, Your Format.",
+  headline: "Multiple Formats, One Consistent Standard",
   introduction:
-    "Every blend we make meets pharmaceutical-grade standards and we keep complete records of each batch. Thus, the quality of each production is always identical. As nutraceutical manufacturers, it is our topmost priority.",
+    "EVIA Labs delivers essential dosage formats backed by pharmaceutical-grade controls and detailed batch records. B2B brands can select the format that is most suitable for their product line, without compromising process consistency.",
   items: [
     {
-      h3: "Tablets Built to Deliver Reliable Performance",
-      description:
-        "Our nutraceutical tablets are precisely compressed to meet quality standards, and we offer a variety of options, including coated, uncoated, standard, and custom formulated.",
+      h3: "Tablets: Small Format and Solid Standard",
+      description: "Perfectly packed for consistent results that a brand’s customers can truly appreciate.",
       cta: "Enquire Now",
       image: "/images/product-tablets.webp",
       imageAlt:
@@ -116,7 +108,7 @@ export const PRODUCTS = {
     {
       h3: "Capsules: Pharmaceutical Fill. Clean Delivery",
       description:
-        "Manufactured to international pharmaceutical specifications, our pharmaceutical-grade hard-shell capsules ensure purity, accuracy, and clean-label excellence across a wide range of nutraceutical products.",
+        "Delivering clean and accurate results with pharmaceutical-grade purity.",
       cta: "Enquire Now",
       image: "/images/product-capsules.webp",
       imageAlt:
@@ -125,16 +117,16 @@ export const PRODUCTS = {
     {
       h3: "Powders (Containers): Bulk Nutrition, Bulk Confidence",
       description:
-        "Functional nutrition, meal boosters blended to pharmaceutical-level accuracy, in ready-to-consume containers for nutraceutical powder blends. Custom taste and formulation are delivered.",
+        "Bulk nutrition, produced with the consistency that reputable manufacturers are known for delivering.",
       cta: "Enquire Now",
       image: "/images/product-powder-container.webp",
       imageAlt:
         "Unbranded nutraceutical powder container and measuring scoop in a pharmaceutical laboratory",
     },
     {
-      h3: "Powders (Sachets): Single-Serve, Sachets: Single-Serve, High Standard.",
+      h3: "Powders (Sachets): Single-Serve, High Standard.",
       description:
-        "Single-serve sachet powders for convenient energy, immunity, and daily wellness nutrition, produced to the same pharmaceutical-grade standards as our bulk formats.",
+        "Simple single-serve solutions that are portioned for convenience and consistency.",
       cta: "Enquire Now",
       image: "/images/product-powder-sachets.webp",
       imageAlt:
@@ -148,43 +140,42 @@ export const PRODUCTS = {
 
 export const SERVICES_CONTENT = {
   h2: "Our Services",
-  headline: "Everything Your Brand Needs in a Manufacturing Partner",
+  headline: "One Partner from Formula to Finished Pack",
   introduction:
-    "From original formulation to finished, branded product, EVIA Labs provides the whole spectrum of contract manufacturing services that B2B marketing organizations require to bring pharmaceutical-grade nutraceuticals to market under their label.",
+    "EVIA Labs offers a comprehensive range of contract manufacturing services, from initial formulation to the final branded product, catering to wellness companies seeking to launch pharmaceutical-grade nutraceuticals under their own label.",
   items: [
     {
-      h3: "Contract Manufacturing",
+      h3: "Batch Manufacturing",
       paragraphs: [
-        "As nutraceutical manufacturers, we offer third-party production for the specified products of your requirements, capsules, tablets, and powders, processed in our high-grade facility for pharmaceutical production, with comprehensive batch documentation and quality certificates.",
+        "EVIA Labs manufactures capsules, pills, and powders for pharmaceutical standardization, documenting and certifying every batch.",
       ],
       cta: "Learn More",
     },
     {
       h3: "Private Labeling",
       paragraphs: [
-        "Your trademark on pharmaceutical-grade formulations. We oversee the manufacturing while you handle the market. Private label solutions of constant quality that your clients and authorities can verify.",
+        "EVIA Labs delivers pharmaceutical-grade items under the client's trademark, ensuring dependable outcomes while the brand focuses on client engagement.",
       ],
       cta: "Learn More",
     },
     {
       h3: "Custom Formulation",
       paragraphs: [
-        "Customized nutraceutical formulations made as per your brief within FSSAI RDA limits and international pharmaceutical standards. Our formulation team works in tandem with your ingredient requirements, target dosage, and product positioning.",
+        "EVIA Labs’ formulation team works with a brand’s ingredients, dosage, and positioning to create custom nutraceuticals that meet FSSAI RDA and international pharmaceutical standards.",
       ],
       cta: "Learn More",
     },
     {
       h3: "Packaging & Labelling",
       paragraphs: [
-        "We can offer complete packaging for your end product, including containers, packs, bottles, and sachets, as nutraceutical manufacturers.",
-        "Your product is prepared for the market, with label-ready output that includes your brand artwork.",
+        "EVIA Labs offers containers, packs, bottles, and sachets- fully labelled and ready to sell.",
       ],
       cta: "Learn More",
     },
     {
       h3: "White Labeling",
       paragraphs: [
-        "Branded nutraceutical formulations ready for market – a shortcut to market for marketing organizations seeking to launch new product lines without the lead time of custom formulation.",
+        "EVIA Labs’ branded nutraceutical formulations let wellness brands launch new product lines faster than developing a custom formulation from scratch.",
       ],
       cta: "Learn More",
     },
@@ -194,11 +185,10 @@ export const SERVICES_CONTENT = {
 
 export const ABOUT_CONTENT = {
   h2: "About EVIA Labs",
-  headline: "Founded to set the standard. Built For It.",
+  headline: "Pharma Expertise Behind Every Product",
   paragraphs: [
-    "We produce nutraceutical tablets, capsules, and powders for B2B marketing firms in India and other countries. Our primary services are contract manufacturing and private labeling, which are backed by a founding team with more than 20 years of experience in the pharmaceutical sector.",
-    "We as nutraceutical manufacturers deal only with B2B marketing organizations, offering your brand access to manufacturing infrastructure, quality processes, and documentation requirements that other nutraceutical contract manufacturers in India do not give.",
-    "We have pharmaceutical-grade air handling equipment, hygienic manufacturing environments, and the processes required to meet not only Indian regulatory requirements but also the demands of global buyers and foreign markets.",
+    "EVIA Labs is a B2B nutraceutical company based in Hyderabad, India, with its manufacturing facility located in Nellore, India. With more than 20 years of experience in the pharmaceutical industry, we provide a variety of services like formulation, private labelling, and contract production- delivered at the standard well-established nutraceutical manufacturers are known for.",
+    "Our services are beneficial to pharmaceutical and wellness organizations on a global scale. We focus entirely on delivering to our client's requirements.",
   ],
   cta: "Learn More About EVIA Labs",
   image: "/images/about-evia-manufacturing-campus.webp",
@@ -207,45 +197,49 @@ export const ABOUT_CONTENT = {
 } as const;
 
 export const CAPABILITIES_PROCESS = {
-  h2: "Our Capabilities & Process",
-  headline: "Five Steps from Your Brief To Your Finished Product",
+  h2: "Our Process",
+  headline: "From the Brief to the Finished Product",
   introduction:
-    "Our manufacturing process is built to deliver regulatory confidence, consistency, and transparency from the moment you submit an inquiry to the delivery of your finished, documented product batch.",
+    "EVIA Labs incorporates regulatory compliance, uniformity, and transparency into every phase of manufacturing, from inquiry to delivery of the completed order.",
   steps: [
     {
-      h3: "Step 1 — Sampling & Formulation",
+      h3: "Step 1: Formulation",
       description:
-        "As nutraceutical manufacturers, the formulation team develops products that meet the standards of pharmaceuticals. Once you approve a trial batch, we go into full production.",
+        "Develop and authorize formulations for pharmaceutical use.",
     },
     {
-      h3: "Step 2—Paperwork for Regulations",
+      h3: "Step 2: Sample Development",
       description:
-        "Before the manufacturing process, necessary compliance papers, Certificate of Analysis and Batch Records are prepared.",
+        "Prepare product samples for assessment and approval.",
     },
     {
-      h3: "Step 3 — Production",
+      h3: "Step 3: Regulatory Compliance",
       description:
-        "Production takes place in our pharmaceutical-grade facility, in a controlled environment, with certified equipment and in-process quality assessment at every vital stage.",
+        "Complete all certifications and paperwork related to compliance.",
     },
     {
-      h3: "Step 4—Quality Assurance & Release",
+      h3: "Step 4: Production",
       description:
-        "Each batch is checked for compliance with pharmaceutical specifications before release. No product is allowed to leave our facility without passing on an analytical release and obtaining a full certificate of analysis.",
+        "Produce in compliance with pharmaceutical quality and safety standards.",
     },
     {
-      h3: "Step 5—Packaging & Delivery",
+      h3: "Step 5: Quality Assurance",
       description:
-        "Your completed product—packaged, labeled, and recorded—is delivered according to your specifications and timeframe from our nutraceutical manufacturers.",
+        "Conduct comprehensive testing prior to batch distribution.",
+    },
+    {
+      h3: "Step 6: Final Distribution",
+      description:
+        "Package and ship the products with all necessary regulatory documents and labels.",
     },
   ],
 } as const;
 
 export const CLIENTS_PARTNERS = {
   h2: "Our Clients & Partners",
-  headline:
-    "A Manufacturer You Can Rely on to Provide You with Value Over a Marketing Company",
+  headline: "Who We Partner With",
   body:
-    "Only B2B pharmaceutical marketing firms that sell to hospitals, distributors, pharmacies, and healthcare networks and who require a contract manufacturer who can be held responsible at every stage of the supply chain are partners of EVIA Labs.",
+    "We work with B2B pharmaceutical firms that sell to hospitals, dealers, pharmacies, and healthcare networks. Our primary clients include pharma companies sourcing nutraceutical products, D2C supplement brands, and exporters. Every client receives the same standard of service, from first inquiry to final delivery.",
   logoAriaLabel: "EVIA Labs client and partner logo placeholders",
   logos: [
     {
@@ -276,10 +270,9 @@ export const CLIENTS_PARTNERS = {
 } as const;
 
 export const CONTACT_CTA = {
-  h2: "Contact EVIA Labs",
-  headline: "Your Next Manufacturer Is a Conversation Away.",
-  body:
-    "What is your target market? What formulation requirements do you have? No commitments, no long lead times. We’ll get back to you within a day.",
+  h2: "Contact CTA Strip",
+  headline: "The Partner Behind Your Brand's Growth",
+  body: "Reach out today, and we will get back to you within a day.",
   actions: [
     {
       label: "Contact Sales Team",
@@ -344,10 +337,10 @@ export const FORM_STEPS = [
 ] as const;
 
 export const INQUIRY_FORM = {
-  eyebrow: "Partner With Us",
-  heading: "Manufacturing Inquiry Form",
+  eyebrow: "Inquiry Form",
+  heading: "Inquiry Form",
   introduction:
-    "Tell us about your nutraceutical manufacturing requirements, and our team will get in touch with you.",
+    "Fill in the form below, and our team will respond within a day.",
   steps: [
     {
       title: "Contact Information",
@@ -365,23 +358,23 @@ export const INQUIRY_FORM = {
   fields: {
     fullName: {
       label: "Full Name",
-      placeholder: "Enter your full name",
+      placeholder: "Enter your full name.",
     },
     companyName: {
       label: "Company Name",
-      placeholder: "Enter your company name",
+      placeholder: "Enter your company name.",
     },
     email: {
       label: "Email Address",
-      placeholder: "Enter your business email",
+      placeholder: "Enter your business email.",
     },
     phone: {
       label: "Phone Number",
-      placeholder: "Enter your contact number",
+      placeholder: "Enter your contact number.",
     },
     location: {
       label: "City / State",
-      placeholder: "Enter your location",
+      placeholder: "Enter your location.",
     },
     productCategory: {
       label: "Product Category",
@@ -465,7 +458,7 @@ export const INQUIRY_FORM = {
       "We could not send your inquiry. Please review the form and try again.",
   },
   confirmation:
-    "Thank you for contacting EVIA Labs. Your inquiry has been received successfully. Our team will review your requirements and contact you shortly.",
+    "Thank you for contacting EVIA Labs. Your inquiry has been received successfully. Our team will contact you shortly.",
 } as const;
 
 export const CREDENTIALS = ["IP", "USP", "BP", "JP", "FSSAI Licensed"] as const;
@@ -476,7 +469,7 @@ export const TRUST_STRIP = {
     "FSSAI Licensed",
     "WHO GMP Certification – In Progress",
   ],
-  formulation: "Personalized Formulation Within the FSSAI RDA Limits",
+  formulation: "Personalized Formulation Within the FSSAI RDA Limits.",
 } as const;
 
 export const INTERFACE_COPY = {

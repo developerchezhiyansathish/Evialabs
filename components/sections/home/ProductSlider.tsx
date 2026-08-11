@@ -107,7 +107,7 @@ export function ProductSlider() {
                 {product.h3}
               </h3>
               <div className="product-card-details">
-                <p className="mt-4 text-[13px] leading-[1.65] font-normal text-ink-200 sm:text-sm">
+                <p className="mt-4 text-[17px] leading-[1.65] font-normal text-ink-200">
                   {product.description}
                 </p>
                 <Link

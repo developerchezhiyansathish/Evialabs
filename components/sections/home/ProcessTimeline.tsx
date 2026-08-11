@@ -123,7 +123,7 @@ export function ProcessTimeline() {
                 <h3 className="font-display text-[clamp(1.25rem,2.5vw,1.75rem)] leading-tight font-normal text-ink-900">
                   {step.h3}
                 </h3>
-                <p className="mt-4 text-sm leading-[1.7] font-normal text-ink-600 sm:text-base sm:leading-[1.75]">
+                <p className="mt-4 text-[17px] leading-[1.7] font-normal text-ink-600 sm:leading-[1.75]">
                   {step.description}
                 </p>
               </article>

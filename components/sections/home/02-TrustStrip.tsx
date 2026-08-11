@@ -63,12 +63,16 @@ export default async function TrustStrip() {
                 </span>
                 {index < 3 ? (
                   <span className="text-xs text-white/75" aria-hidden="true">
-                    →
+                    {index === 0 ? "→" : "·"}
                   </span>
                 ) : null}
               </span>
             ))}
           </div>
+
+          <span className="text-xs text-white/75" aria-hidden="true">
+            |
+          </span>
 
           <div className="flex max-w-full items-center justify-center gap-3 text-center">
             <LuMicroscope

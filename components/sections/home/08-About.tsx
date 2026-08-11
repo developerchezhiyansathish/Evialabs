@@ -72,7 +72,7 @@ export default async function About() {
           <div className="mt-7 max-w-[64ch] space-y-5">
             {ABOUT_CONTENT.paragraphs.map((paragraph) => (
               <Reveal key={paragraph}>
-                <p className="text-sm leading-[1.7] font-normal text-ink-300 sm:text-base sm:leading-[1.75]">
+                <p className="text-[17px] leading-[1.7] font-normal text-ink-300 sm:leading-[1.75]">
                   {paragraph}
                 </p>
               </Reveal>
