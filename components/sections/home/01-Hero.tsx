@@ -18,13 +18,6 @@ export default async function Hero() {
       />
       <div className="site-container relative grid items-center gap-14 lg:grid-cols-[minmax(0,1.06fr)_minmax(380px,0.94fr)] lg:gap-16 xl:gap-24">
         <div className="min-w-0">
-          <Reveal>
-            <p className="flex items-center gap-3 text-[11px] font-normal uppercase tracking-[0.14em] text-ink-700 tabular-nums sm:text-xs">
-              <span className="size-1.5 shrink-0 bg-brand-500" aria-hidden="true" />
-              {HERO.eyebrow}
-            </p>
-          </Reveal>
-
           <SplitText
             tag="h1"
             text={HERO.h1}
@@ -37,7 +30,7 @@ export default async function Hero() {
             threshold={0.12}
             rootMargin="-20px"
             highlightFrom={HERO.highlight}
-            className="mt-6 max-w-[21ch] font-display text-[clamp(2rem,4.6vw,3.375rem)] leading-[1.04] font-normal tracking-[-0.02em] text-ink-900"
+            className="max-w-[21ch] font-display text-[clamp(2rem,4.6vw,3.375rem)] leading-[1.04] font-normal tracking-[-0.02em] text-ink-900"
           />
 
           <div className="mt-7 max-w-[65ch] space-y-4 text-[17px] leading-[1.65] font-normal text-ink-600">

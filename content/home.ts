@@ -14,7 +14,6 @@ export const NAVIGATION = [
 ] as const;
 
 export const HERO = {
-  eyebrow: "Nellore, India / Contract Manufacturing",
   h1: "Trusted Nutraceutical Manufacturers for Global Brands",
   highlight: "Global Brands",
   sub: [
@@ -35,7 +34,7 @@ export const HERO = {
   stats: [
     { value: 100, suffix: "%", label: "Compliance Rate" },
     { value: 500, suffix: "K+", label: "Daily Capacity" },
-    { value: "Nellore", label: "Manufacturing Hub" },
+    { value: "20+", label: "Years of Experience" },
   ],
   imageAlt:
     "Nutraceutical manufacturing specialist operating pharmaceutical equipment in an EVIA Labs cleanroom",
@@ -340,7 +339,7 @@ export const INQUIRY_FORM = {
   eyebrow: "Inquiry Form",
   heading: "Inquiry Form",
   introduction:
-    "Fill in the form below, and our team will respond within a day.",
+    "Fill in the form, and our team will respond within a day.",
   steps: [
     {
       title: "Contact Information",
